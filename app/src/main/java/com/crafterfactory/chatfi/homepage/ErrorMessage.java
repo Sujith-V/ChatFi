@@ -13,6 +13,6 @@ public enum ErrorMessage {
 
     ErrorMessage(int code, String message)
     {
-        
+        int i;
     }
 }
