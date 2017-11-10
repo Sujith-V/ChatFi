@@ -18,7 +18,7 @@ public class HomePagePresenter implements HomePagePresenterRequestInterface {
 
     private boolean isValidData(String ipAddress, String message) {
         if (ipAddress == null) {
-            String errorMessage = ;
+
         }
         return true;
     }
