@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ChatFi</string>
+    <string name="error_data_not_received">Data not received. Try Again.</string>
+    <string name="error_data_cannot_be_empty">Data cannot be empty</string>
+</resources>

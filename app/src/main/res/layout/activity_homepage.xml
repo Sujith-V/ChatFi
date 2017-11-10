@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.crafterfactory.chatfi.homepage.HomePageView">
+
+    <EditText
+        android:id="@+id/et_home_activity_ip_address"
+        android:layout_width="332dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="IP Adderss"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/et_home_activity_message"
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="Enter Message"
+        android:inputType="textPersonName"
+        android:textAlignment="textStart"
+        android:textColor="@android:color/holo_green_light"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="449dp" />
+
+    <Button
+        android:id="@+id/btn_home_activity_send"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Send"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="260dp"
+        tools:layout_editor_absoluteY="449dp" />
+
+</android.support.constraint.ConstraintLayout>
